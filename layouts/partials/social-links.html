@@ -59,4 +59,16 @@
             </a>
         </li>
     {{ end }}
+
+    {{- if $input.githubUrl }}
+        <li class="social-links__menu-item">
+            <a
+                href="{{- $input.githubUrl }}"
+                aria-label="GitHub"
+                rel="external"
+                class="social-links__link {{ $input.linkClass }}">
+                {{- partial "graphics/social/github.html" }}
+            </a>
+        </li>
+    {{ end }}
 </ul>

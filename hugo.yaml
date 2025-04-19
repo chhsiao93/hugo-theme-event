@@ -82,6 +82,7 @@ params:
                 xUrl:
                 facebookUrl:
                 linkedinUrl:
+                githubUrl:
             favicon: favicon.ico
             images:
                 logo: logos/medialesson-rgb.svg
